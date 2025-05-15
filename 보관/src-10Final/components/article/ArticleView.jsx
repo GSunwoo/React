@@ -23,17 +23,16 @@ function ArticleView (props) {
           </tr>
           <tr>
             <th>내용</th>
-            <td style={{'whiteSpace':'pre-wrap'}}
-            >{props.selectRow.contents}</td>
+            <td>{props.selectRow.contents}</td>
           </tr>
-          {/*<tr>
+          <tr>
             <th>내용1</th>
-            JS의 고차함수인 map()을 이용해서 줄바꿈이 된 횟수만큼 반복해서 br태그로
-                변경한다. 
+            {/* JS의 고차함수인 map()을 이용해서 줄바꿈이 된 횟수만큼 반복해서 br태그로
+                변경한다. */}
             <td>{props.selectRow.contents.split('\n').map((currVal)=>{
               console.log(currVal);
               return(<>
-               br태그도 중복적으로 사용되므로 unique한 key prop이 필요하다. 
+              {/* br태그도 중복적으로 사용되므로 unique한 key prop이 필요하다. */}
                 {currVal} <br key={Math.random()}/>
               </>);
             })}</td>
@@ -46,7 +45,7 @@ function ArticleView (props) {
           <tr>
             <th>내용3</th>
             <td className="contWrap">{props.selectRow.contents}</td>
-          </tr> */}
+          </tr>
         </tbody>
       </table>
     </article>

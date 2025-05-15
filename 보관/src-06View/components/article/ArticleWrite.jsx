@@ -1,18 +1,7 @@
 function ArticleWrite (props) {
   return(<> 
     <article>
-      <form onSubmit={(event)=>{
-        // 제출되는 것을 차단
-        event.preventDefault();
-
-        // 이벤트 객체의 target속성으로 form하위 태그에 접근하여 value를 읽어온다.
-        let title = event.target.title.value;
-        let writer = event.target.writer.value;
-        let contents = event.target.contents.value;
-        
-        // 3개의 폼값을 부모로 전달하여 쓰기처리 한다.
-        props.writeAction(title,writer,contents);
-      }}>
+      <form>
         <table id="boardTable">
           <colgroup>
             <col width="30%"/>
@@ -26,6 +15,10 @@ function ArticleWrite (props) {
             <tr>
               <th>제목</th>
               <td><input type="text" name="title" /></td>
+            </tr>
+            <tr>
+              <th>날짜</th>
+              <td>2023-05-05</td>
             </tr>
             <tr>
               <th>내용</th>

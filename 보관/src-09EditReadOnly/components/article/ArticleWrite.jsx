@@ -33,7 +33,7 @@ function ArticleWrite (props) {
             </tr>
           </tbody>
         </table>
-        <input type="submit" value="전송"/>
+        <input type="submit" value="수정"/>
       </form>
     </article>
   </>);

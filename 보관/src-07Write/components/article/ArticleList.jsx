@@ -1,8 +1,9 @@
 function ArticleList(props) {
-  const lists = props.boardData.map((row)=>{
-    const retrunArr = [];
-    retrunArr.push(
-    <tr key={row.no}>
+  const lists = [];
+  for(let i=0 ; i<props.boardData.length; i++){
+    let row = props.boardData[i];
+    lists.push(
+      <tr key={row.no}>
         <td className="cen">{row.no}</td>
         <td><a href={'/read/'+row.no} onClick={(event)=>{
           event.preventDefault();
@@ -10,11 +11,9 @@ function ArticleList(props) {
         }}>{row.title}</a></td> 
         <td className="cen">{row.writer}</td>
         <td className="cen">{row.date}</td>
-    </tr>
-    );
-    return retrunArr;
-  });
-
+      </tr>
+    )
+  }
   return (<>
     <article>
       <table id="boardTable">
