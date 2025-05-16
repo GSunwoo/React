@@ -6,6 +6,7 @@ import List from './components/board/List';
 import View from './components/board/View';
 import Write from './components/board/Write';
 import NotFound from './components/common/NotFound';
+import Edit from './components/board/Edit';
 // 스테이트 사용을 위한 import
 import { useState } from 'react';
 
@@ -58,6 +59,9 @@ function App() {
           nextNo={nextNo} setNextNo={setNextNo}
           navigate={navigate} nowDate={nowDate}
         ></Write>} />
+        <Route path='/edit'>
+          <Route path=':no' element={<Edit boardData={boardData} setBoardData={setBoardData} navigate={navigate}/>}/>
+        </Route>
         <Route path='*' element={<NotFound></NotFound>} />
       </Routes>
   </>);
