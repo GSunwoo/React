@@ -65,7 +65,7 @@ function App() {
     }}></NavView>
     console.log('현재no:',no,typeof(no));
     selectRow = boardData.reduce((pV, cV)=>{
-      return (pV===cV.no) ? cV : pV;
+      return (pV.no===cV.no) ? cV : pV;
     }, no)
     // for(let i=0 ; i<boardData.length; i++){
     //   if(no===boardData[i].no){
