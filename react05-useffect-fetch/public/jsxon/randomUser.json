@@ -1,0 +1,290 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "Ms",
+        "first": "Katie",
+        "last": "Jackson"
+      },
+      "location": {
+        "street": {
+          "number": 7586,
+          "name": "Victoria Road"
+        },
+        "city": "Bradford",
+        "state": "Kent",
+        "country": "United Kingdom",
+        "postcode": "C6P 6LN",
+        "coordinates": {
+          "latitude": "-10.8564",
+          "longitude": "32.5882"
+        },
+        "timezone": {
+          "offset": "+1:00",
+          "description": "Brussels, Copenhagen, Madrid, Paris"
+        }
+      },
+      "email": "katie.jackson@example.com",
+      "login": {
+        "uuid": "87c7ce18-cd60-487e-b5d9-1a99ffa2f4d9",
+        "username": "purplebutterfly709",
+        "password": "sister",
+        "salt": "ZAdGD39u",
+        "md5": "a22d8be3afda344c840ff5690331c8da",
+        "sha1": "4e515caafd9beffe9fc32e0d9d237bb5cb052b63",
+        "sha256": "eca408b39d110b2f885d0fccc0bb7aaebfa8bd5458e3cbd0db78c7384d2fc13b"
+      },
+      "dob": {
+        "date": "1976-09-02T17:18:47.136Z",
+        "age": 48
+      },
+      "registered": {
+        "date": "2014-08-23T11:45:41.252Z",
+        "age": 10
+      },
+      "phone": "019467 32328",
+      "cell": "07061 822070",
+      "id": {
+        "name": "NINO",
+        "value": "WT 89 06 69 W"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/93.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/93.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/93.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Anika",
+        "last": "Andrade"
+      },
+      "location": {
+        "street": {
+          "number": 238,
+          "name": "Somwar Peth"
+        },
+        "city": "Mysore",
+        "state": "Meghalaya",
+        "country": "India",
+        "postcode": 37587,
+        "coordinates": {
+          "latitude": "-28.6096",
+          "longitude": "105.4093"
+        },
+        "timezone": {
+          "offset": "+6:00",
+          "description": "Almaty, Dhaka, Colombo"
+        }
+      },
+      "email": "anika.andrade@example.com",
+      "login": {
+        "uuid": "0a70f8b1-6770-497c-88ef-a2397fb39004",
+        "username": "greengorilla309",
+        "password": "woof",
+        "salt": "03gDUVaI",
+        "md5": "143aff2915aff5bf6655d6ddb880ed27",
+        "sha1": "dfc66825d33f1b4fd27b2fb655966142647d8239",
+        "sha256": "a84703e9ac6ca9c7725ae0c25d7c8dd17f66856df5552a6e67d1b0c9b9acfb97"
+      },
+      "dob": {
+        "date": "1962-07-17T12:03:58.424Z",
+        "age": 62
+      },
+      "registered": {
+        "date": "2016-02-07T14:02:01.967Z",
+        "age": 9
+      },
+      "phone": "8976555486",
+      "cell": "9095825504",
+      "id": {
+        "name": "UIDAI",
+        "value": "002415909962"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/0.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/0.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/0.jpg"
+      },
+      "nat": "IN"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Nora",
+        "last": "Clement"
+      },
+      "location": {
+        "street": {
+          "number": 7838,
+          "name": "Rue de L'Abbé-Grégoire"
+        },
+        "city": "Limoges",
+        "state": "Yonne",
+        "country": "France",
+        "postcode": 65573,
+        "coordinates": {
+          "latitude": "-73.6415",
+          "longitude": "-47.8443"
+        },
+        "timezone": {
+          "offset": "-5:00",
+          "description": "Eastern Time (US & Canada), Bogota, Lima"
+        }
+      },
+      "email": "nora.clement@example.com",
+      "login": {
+        "uuid": "d340ce0b-0f3d-4949-9e07-98f14de468bf",
+        "username": "tinybird785",
+        "password": "jack",
+        "salt": "Yg9hFIK9",
+        "md5": "a3719ef091d0e8f411ec40f4f817aff0",
+        "sha1": "306d25f7e615a9748c7308db08b9624dc026b634",
+        "sha256": "0758828a4dbfa54a4e0b63cc12e8e65a804fa5dfd843e31bed1de9cc4bf8f42e"
+      },
+      "dob": {
+        "date": "1975-12-20T22:30:31.959Z",
+        "age": 49
+      },
+      "registered": {
+        "date": "2011-01-05T16:26:54.599Z",
+        "age": 14
+      },
+      "phone": "01-85-48-85-57",
+      "cell": "06-29-09-64-57",
+      "id": {
+        "name": "INSEE",
+        "value": "2751143078149 26"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/63.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/63.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
+      },
+      "nat": "FR"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Madame",
+        "first": "Élodie",
+        "last": "Andre"
+      },
+      "location": {
+        "street": {
+          "number": 8041,
+          "name": "Rue Desaix"
+        },
+        "city": "Jonen",
+        "state": "Neuchâtel",
+        "country": "Switzerland",
+        "postcode": 6950,
+        "coordinates": {
+          "latitude": "28.1424",
+          "longitude": "-20.5382"
+        },
+        "timezone": {
+          "offset": "+8:00",
+          "description": "Beijing, Perth, Singapore, Hong Kong"
+        }
+      },
+      "email": "elodie.andre@example.com",
+      "login": {
+        "uuid": "981d8865-825f-4d6c-bf6d-e5354e427ece",
+        "username": "sadbird956",
+        "password": "zigzag",
+        "salt": "2FdSLwEq",
+        "md5": "c0d4a88af6ec70bb69b261dbc6627de3",
+        "sha1": "62c78e3cf7d6625f37a3e5d01900c7f487d219c4",
+        "sha256": "9324f0e6b9fc298db7b680fb38f7663940d4ba479e9d84f8f73b53cd9b4b785f"
+      },
+      "dob": {
+        "date": "1962-08-06T17:07:20.102Z",
+        "age": 62
+      },
+      "registered": {
+        "date": "2019-08-18T08:49:31.360Z",
+        "age": 5
+      },
+      "phone": "078 725 74 24",
+      "cell": "075 269 79 07",
+      "id": {
+        "name": "AVS",
+        "value": "756.0911.2843.81"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/71.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/71.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/71.jpg"
+      },
+      "nat": "CH"
+    },
+    {
+      "gender": "female",
+      "name": {
+        "title": "Mrs",
+        "first": "Layla",
+        "last": "Chen"
+      },
+      "location": {
+        "street": {
+          "number": 4692,
+          "name": "Fenton Street"
+        },
+        "city": "Whangarei",
+        "state": "Wellington",
+        "country": "New Zealand",
+        "postcode": 43439,
+        "coordinates": {
+          "latitude": "83.9807",
+          "longitude": "77.0072"
+        },
+        "timezone": {
+          "offset": "+5:45",
+          "description": "Kathmandu"
+        }
+      },
+      "email": "layla.chen@example.com",
+      "login": {
+        "uuid": "1e092d33-0b02-4803-9abb-470185ffba75",
+        "username": "organicbear275",
+        "password": "mercer",
+        "salt": "JORWIA03",
+        "md5": "cfcf43d70da8bc5244792c3a66a48386",
+        "sha1": "90d4bc359d3231423326b327f54e9784b7fdc732",
+        "sha256": "d496528fb192d3ad2f52d09ab9fd8aea2aeefbdfc7b7ea45e5a4835112d91a40"
+      },
+      "dob": {
+        "date": "1983-03-28T22:20:37.623Z",
+        "age": 42
+      },
+      "registered": {
+        "date": "2012-12-18T05:56:43.717Z",
+        "age": 12
+      },
+      "phone": "(854)-346-4043",
+      "cell": "(467)-359-4556",
+      "id": {
+        "name": "",
+        "value": null
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/28.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/28.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/28.jpg"
+      },
+      "nat": "NZ"
+    }
+  ],
+  "info": {
+    "seed": "713b326e5c8cc189",
+    "results": 5,
+    "page": 1,
+    "version": "1.4"
+  }
+}
