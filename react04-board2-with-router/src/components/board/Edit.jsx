@@ -41,7 +41,6 @@ function Edit(props) {
         for(let i=0; i<copyBoardData.length; i++){
           if(copyBoardData[i].no===Number(params.no)){
             copyBoardData[i] = editBoardData;
-            console.log('hi');
             break;
           }
         }
