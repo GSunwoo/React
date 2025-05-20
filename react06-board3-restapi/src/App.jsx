@@ -21,9 +21,11 @@ function App() {
         {/* 중첩라우팅으로 게시물의 일련번호가 하위경로 형태로 추가된다.
         이것을 useParams 훅을 통해 읽어올 수 있다. */}
         <Route path='/view'>
-          <Route path=':idx' element={<View></View>} />
+          <Route path=':idx' element={<View navigate={navigate}></View>} />
         </Route> 
         <Route path='/write' element={<Write navigate={navigate}></Write>} />
+        {/* 수정의 경우에도 열람과 마찬가지로 수정할 게시물의 일련번호가
+        필요하므로 중첩라우팅으로 설정해야한다. */}
         <Route path='/edit'>
           <Route path=':idx' element={<Edit navigate={navigate}></Edit>} />
         </Route> 
