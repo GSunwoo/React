@@ -64,14 +64,14 @@ function App() {
       setMode(pmode);
     }}></NavView>
     console.log('현재no:',no,typeof(no));
-    selectRow = boardData.reduce((pV, cV)=>{
-      return (pV.no===cV.no) ? cV : pV;
-    }, no)
-    // for(let i=0 ; i<boardData.length; i++){
-    //   if(no===boardData[i].no){
-    //   selectRow = boardData[i];
-    //   }
-    // }
+    // selectRow = boardData.reduce((pV, cV)=>{
+    //   return (pV.no===cV.no) ? cV : pV;
+    // }, no)
+    for(let i=0 ; i<boardData.length; i++){
+      if(no===boardData[i].no){
+      selectRow = boardData[i];
+      }
+    }
 
     articleComp = <ArticleView selectRow={selectRow}></ArticleView>
   }
